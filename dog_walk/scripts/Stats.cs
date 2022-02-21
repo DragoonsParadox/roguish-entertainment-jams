@@ -1,15 +1,17 @@
 using Godot;
-using System;
 
-public class Stats : Node
+public class Stats
 {
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
+    public enum PT{
+        MALNOURISHED,
+        FIGHT_DOG,
 
+    }
     // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
-    {
+    void Stats(float[] mod, PT pT, bool stray){
         
     }
 
