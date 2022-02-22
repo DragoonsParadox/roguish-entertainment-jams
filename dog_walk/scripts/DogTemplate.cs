@@ -6,9 +6,9 @@ public class DogTemplate : Node
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
-    Object mod = {1,1,1,1,1};
+    Object mod = {1.0f,1.0f,1.0f,1.0f,1.0f};
     Stats.PT pT = Stats.PT.NONE;
-    Stats stats = new Stats(mod, pT);
+    Stats stats = new Stats(mod, pT, false, 1);
     String name = "Test Dog"; 
     int loyalty, dt;
     float fatigue;
